@@ -18,10 +18,8 @@ int main(int argc, char** argv[]) {
 		people.push_back(new Students(test[i], test[i]));
 		std::cout << " Name: " << people[i]->getName() << people[i]->getId() << " ";
 	}
-
-	for (size_t i = 0; i < 10; i++) {
-		std::cout << "\n Sucssesfully managed Git!";
-	}
+	
+	
 	//std::cout << b.getId() << " <- obj B\n";
 
 	system("pause");
